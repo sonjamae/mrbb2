@@ -1,0 +1,116 @@
+0000.000 (0) Opened log file at time: Sat, 22 Oct 2022 01:19:44 +0000 on https://sonjamae.ca/mrbb2
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.3 PHP: 7.4.29 (litespeed, Linux bishop.web-dns1.com 4.18.0-305.19.1.lve.el7h.x86_64 #1 SMP Thu Sep 23 11:57:48 UTC 2021 x86_64) MySQL: 10.3.34-MariaDB-log-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 64.6M | 9M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.020 (0) Free space on disk containing Updraft's temporary directory: 494361.9 MB
+0000.022 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.039 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.040 (0) Semaphore (fd, mrbb2_options) was stuck, set lock time to 2022-10-22 01:19:44
+0000.041 (0) Semaphore (fd, mrbb2_options) reset to 1
+0000.041 (0) Set semaphore last lock (fd) time to 2022-10-22 01:19:44
+0000.042 (0) Semaphore lock (fd) complete
+0000.045 (0) Backup run: resumption=0, nonce=fcb26fec68ef, file_nonce=fcb26fec68ef begun at=1666401584 (0s ago), job type=backup
+0000.046 (0) Scheduling a resumption (1) after 597 seconds (1666402181) in case this run gets aborted
+0000.158 (0) Checking if we have a zip executable available
+0000.158 (0) Testing: /usr/bin/zip
+0000.170 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.171 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.172 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.198 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.199 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.216 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.217 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.223 (0) Working binary zip found: /usr/bin/zip
+0000.225 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.225 (0) Creation of backups of directories: beginning
+0000.231 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.000 (0) Total entities for the zip file: 1085 directories, 5527 files (0 skipped as non-modified), 88.6 MB
+0005.001 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.238 (0) backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: size is now: 0.20 MB
+0005.240 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 100 files added (on-disk size: 251.5 KB)
+0005.242 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 200 files added (on-disk size: 251.5 KB)
+0005.243 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 300 files added (on-disk size: 251.5 KB)
+0005.244 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 400 files added (on-disk size: 251.5 KB)
+0005.246 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 500 files added (on-disk size: 251.5 KB)
+0005.247 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 600 files added (on-disk size: 251.5 KB)
+0005.248 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 700 files added (on-disk size: 251.5 KB)
+0005.249 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 800 files added (on-disk size: 251.5 KB)
+0005.251 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 900 files added (on-disk size: 251.5 KB)
+0005.252 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1000 files added (on-disk size: 251.5 KB)
+0005.253 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.5 MB, 5527 files batched, 1001 (1002) added so far); re-opening (prior size: 251.5 KB)
+0018.839 (0) backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: size is now: 3.90 MB
+0018.841 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1100 files added (on-disk size: 3976 KB)
+0018.842 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1200 files added (on-disk size: 3976 KB)
+0018.843 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1300 files added (on-disk size: 3976 KB)
+0018.844 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1400 files added (on-disk size: 3976 KB)
+0018.846 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1500 files added (on-disk size: 3976 KB)
+0018.847 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1600 files added (on-disk size: 3976 KB)
+0018.848 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1700 files added (on-disk size: 3976 KB)
+0018.849 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1800 files added (on-disk size: 3976 KB)
+0018.851 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 1900 files added (on-disk size: 3976 KB)
+0018.852 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2000 files added (on-disk size: 3976 KB)
+0018.852 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 5527 files batched, 1001 (2003) added so far); re-opening (prior size: 3976 KB)
+0039.244 (0) backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: size is now: 12.50 MB
+0039.250 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2100 files added (on-disk size: 12766.3 KB)
+0039.251 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2200 files added (on-disk size: 12766.3 KB)
+0039.253 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2300 files added (on-disk size: 12766.3 KB)
+0039.254 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2400 files added (on-disk size: 12766.3 KB)
+0039.255 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2500 files added (on-disk size: 12766.3 KB)
+0039.256 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2600 files added (on-disk size: 12766.3 KB)
+0039.258 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2700 files added (on-disk size: 12766.3 KB)
+0039.259 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2800 files added (on-disk size: 12766.3 KB)
+0039.260 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 2900 files added (on-disk size: 12766.3 KB)
+0039.261 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3000 files added (on-disk size: 12766.3 KB)
+0039.262 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.4 MB, 5527 files batched, 1001 (3004) added so far); re-opening (prior size: 12766.3 KB)
+0065.170 (0) backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: size is now: 20.50 MB
+0065.182 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3100 files added (on-disk size: 21040.1 KB)
+0065.185 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3200 files added (on-disk size: 21040.1 KB)
+0065.187 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3300 files added (on-disk size: 21040.1 KB)
+0065.215 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3400 files added (on-disk size: 21040.1 KB)
+0065.217 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3500 files added (on-disk size: 21040.1 KB)
+0065.218 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3600 files added (on-disk size: 21040.1 KB)
+0065.219 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3700 files added (on-disk size: 21040.1 KB)
+0065.220 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3800 files added (on-disk size: 21040.1 KB)
+0065.222 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 3900 files added (on-disk size: 21040.1 KB)
+0065.223 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4000 files added (on-disk size: 21040.1 KB)
+0065.223 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.8 MB, 5527 files batched, 1001 (4005) added so far); re-opening (prior size: 21040.1 KB)
+0089.799 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4100 files added (on-disk size: 23147.5 KB)
+0089.803 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4200 files added (on-disk size: 23147.5 KB)
+0089.805 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4300 files added (on-disk size: 23147.5 KB)
+0089.806 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4400 files added (on-disk size: 23147.5 KB)
+0089.808 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4500 files added (on-disk size: 23147.5 KB)
+0089.809 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4600 files added (on-disk size: 23147.5 KB)
+0089.810 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4700 files added (on-disk size: 23147.5 KB)
+0089.811 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 5527 files batched, 757 (4762) added so far); re-opening (prior size: 23147.5 KB)
+0122.443 (0) backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: size is now: 29.40 MB
+0122.447 (0) A useful amount of data was added after this amount of zip processing: 33.1 s (normalised: 33.1 s, rate: 773.6 KB/s)
+0122.448 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4800 files added (on-disk size: 30082 KB)
+0122.449 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 4900 files added (on-disk size: 30082 KB)
+0122.451 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 5000 files added (on-disk size: 30082 KB)
+0122.452 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 5100 files added (on-disk size: 30082 KB)
+0122.454 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 5200 files added (on-disk size: 30082 KB)
+0122.455 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 5300 files added (on-disk size: 30082 KB)
+0122.457 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 5400 files added (on-disk size: 30082 KB)
+0122.458 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.tmp: 5500 files added (on-disk size: 30082 KB)
+0184.201 (0) Creating zip file manifest (backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip.list-temp.tmp)
+0184.423 (0) Successfully created zip file manifest (size: 465147)
+0184.711 (0) Created plugins zip (0) - 32951.1 KB in 184.5 s (178.6 KB/s) (sha1: db39e900cbcabefd22283457ab51cece292ffc1b, sha256: e84bb6339f2e1c092a04d53b7ab5d0f76447188c27dffdc66977753608d4dc29)
+0184.714 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0184.715 (0) Beginning dispatch of backup to remote (email)
+0184.716 (0) [Warning] Email: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip: This backup archive is 32.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0184.716 (0) Email: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip: email to: admin...
+0217.612 (0) Recording as successfully uploaded: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip
+0217.616 (0) Deleting local file: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-plugins.zip: OK
+0217.618 (0) Beginning creation of dump of themes (split every: 400 MB)
+0217.642 (0) Total entities for the zip file: 91 directories, 497 files (0 skipped as non-modified), 12 MB
+0217.644 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0217.645 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0217.646 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0217.647 (0) Zip: backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0221.243 (0) backup_2022-10-21-1919_Mackenzie_River_Basin_Board_fcb26fec68ef-themes.zip.tmp: size is now: 5.60 MB
+0221.244 (0) User request for abort: backup job will be immediately halted
+0221.245 (0) Decremented the semaphore (fd) by 1
+0221.246 (0) Semaphore (fd) unlocked
+0221.246 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0221.248 (0) Fetching RSS news feed
+0221.723 (0) Fetched RSS news feed; result is a: SimplePie
+0221.732 (0) Sending email ('The backup was aborted by the user') report (attachments: 0, size: 0 KB) to: admin...
+0225.671 (0) The backup was aborted by the user
