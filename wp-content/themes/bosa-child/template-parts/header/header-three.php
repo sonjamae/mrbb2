@@ -39,7 +39,7 @@
 						<span class="icon-bar-wrap">
 							<span class="icon-bar"></span>
 						</span>
-						<span class="iconbar-label d-lg-none"><?php echo esc_html( get_theme_mod( 'top_bar_name', 'TOP MENU' ) ); ?></span>
+						<span class="iconbar-label d-lg-none"><?php echo esc_html( get_theme_mod( 'top_bar_name', 'SEARCH' ) ); ?></span>
 					</a>
 				</div>
 			<?php } ?>
