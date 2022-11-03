@@ -20,3 +20,118 @@ Bosa is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, 
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 */
+
+:root {
+    --yellow: #EAB130;
+      --lightblue: #57AFE3;
+      --darkblue: #256BA6;
+      --lightgreen: #297674;
+      --darkgreen: #10302E;
+  }
+  
+  div {
+      min-width: 100%;
+  }
+  /* header {
+      z-index: 1;
+  }
+  .site-title a {
+      color: white !important;
+  }
+  header div.col-lg-9 {
+      color: black;
+      background-color: rgba(255, 255, 255, 0.7);
+  } */
+  .overlay {
+      height: calc(100% - 2rem);
+  }
+  div.bottom-header {
+      padding-bottom: 0.5rem !important;
+  }
+  .site-description {
+      visibility: hidden;
+      height: 0;
+  }
+  header div.col-lg-9 {
+      padding-left: 0;
+      margin: -1rem auto;
+  }
+  .main-navigation ul.menu > li:first-child > a {
+      padding-left: 15px;
+  }
+  .slicknav_nav > li > a {
+      margin: 0;
+  }
+  #metaslider_5318 {
+      min-width: 100%;
+      margin-top: -4.5rem;
+      margin-left: -0.96rem;
+      margin-right: -0.96rem;
+      margin-bottom: 2.5rem;
+  /* 	z-index: 0;
+      top: -15.5rem; */
+  }
+  a.flex-next {
+      overflow: hidden;
+  }
+  div#back-to-top{
+      left: 1rem;
+      width: calc(100% - 1rem);
+  }
+  
+  /* Media queries */
+  @media screen and (min-width: 576px) {
+      #metaslider_5318 {
+          margin-top: -6rem;
+      }
+  }
+  @media screen and (min-width: 768px) {
+      #metaslider_5318 {
+          margin-top: -7.25rem;
+      }
+  }
+  @media screen and (min-width: 992px) {
+      header {
+          padding-top: 1rem;
+      }
+      .site-description {
+          height: auto;
+      }
+      .header-search {
+          z-index: 2;
+          padding-right: 3rem;
+          background-color: red;
+      }
+      header div.col-lg-9 {
+          margin-bottom: 20px;
+      }
+      #metaslider_5318 {
+          margin-top: -4rem;
+      }
+      
+  }
+  @media screen and (min-width: 1200px) {
+      header {
+          padding-top: 1.25rem;
+      }
+  }
+  @media screen and (min-width: 1309px) {
+      #masthead {
+          padding-top: 0;
+      }
+      .site-branding {
+          margin-top: -1rem;
+      }
+      div.bottom-header {
+          padding-bottom: auto;
+      }
+      #metaslider_5318 {
+          margin-top: -6.25rem;
+      }
+  }
+  /* @media screen and (min-width: 2000px) {
+      header {
+          padding-top: 0.5rem;
+      }
+  } */
+  
