@@ -155,5 +155,4 @@
 		<div class="overlay"></div>
 	</div>
 	<div class="mobile-menu-container"></div>
-	<?php echo '<div id="metaslider-id-5318" style="max-width: 1200px; margin: 0 auto;"'; ?>
 </header><!-- #masthead -->
