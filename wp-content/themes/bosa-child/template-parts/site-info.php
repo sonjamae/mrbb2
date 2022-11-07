@@ -20,11 +20,6 @@
 
 	<?php echo wp_kses_post( html_entity_decode( esc_html__( 'Copyright &copy; ' , 'Mackenzie River Basin Board' ) ) );
 		echo esc_html( date('Y') );
-		printf( esc_html__( ' Mackenzie River Basin Board', 'bosa' ) );
+		echo " Mackenzie River Basin Board"
 	?>
-
-	<a href="<?php echo esc_url( __( '//bosathemes.com', 'bosa' ) ); ?>" target="_blank">
-		<?php printf( esc_html__( 'Bosa Themes', 'bosa' ) ); ?>
-	</a>
-
 </div><!-- .site-info -->
